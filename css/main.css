@@ -30,12 +30,29 @@ header {
   font-style: normal;
   font-weight: normal;
   padding: 1rem;
+  background-color: #686868;
+}
+
+section {
+  background-color: #259f95;
+  padding: 1rem;
+}
+
+.several {
+  color: #259f95;
+  font-style: italic;
+  font-weight: lighter;
 }
 
 header strong,
 header p {
   margin: 0;
   font-weight: normal;
+}
+
+.head {
+  float: right;
+  margin-top: 3rem;
 }
 
 .by {
@@ -78,6 +95,7 @@ nav ul {
   padding: 0;
 }
 
+
 nav a {
   display: flex;
   justify-content: center;
@@ -86,7 +104,7 @@ nav a {
   border: 0;
   border-radius: 6px;
   color: #fff;
-  padding: 0.5rem;
+  padding: .5rem;
   width: 2.5rem;
   height: 2.5rem;
 }
@@ -94,6 +112,8 @@ nav a {
 nav a:hover,
 nav a:focus {
   background-color: #1e7c74;
+  outline: .2rem solid #000;
+  outline-offset: .1rem;
 }
 
 .icon {
@@ -157,4 +177,5 @@ footer {
   padding: 1rem;
   background-image: url("../images/anchors.svg");
   color: #fff;
+  background-color: #686868;
 }
