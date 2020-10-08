@@ -109,6 +109,10 @@ nav a {
   height: 2.5rem;
 }
 
+.indent {
+  text-indent: 40px;
+}
+
 nav a:hover,
 nav a:focus {
   background-color: #1e7c74;
